@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Thasadith", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero_section {
+    background-image: url('images/steven-cordes-missoula.jpg');
+    margin-top: 0;
+    padding: 20px;
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+#hero_section h1 {
+    background-color: #563440;
+    color: #d7dedc;
+    border-radius: 10px;
+    width: 250px;
+    margin: auto;
+    padding: 5px 10px;
+}
+
+#hero_section h2 {
+    background-color: #9a879d;
+    color: #563440;
+    border-radius: 10px;
+    width: 450px;
+    margin: 15px auto;
+    padding: 5px 10px;
+}
+
+#activities_section {
+    background-color: #eee;
+    margin-top: 0;
+    padding: 25px 10px;
+}
+
+#activities_section h3 {
+    margin-top: 0;
+    color: #563440;
+    font-size: 24px;
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+
+.activities h4 {
+    font-size: 20px;
+}
+
+.activities p {
+    font-weight: bold;
+}
+
+.activity {
+    width: 30%;
+    margin: auto;
+    color: #563440;
+}
+
+.activity img {
+    border-radius: 50%;
+    width: 150px;
+}
+
+#guide_card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 50%;
+    margin: 30px auto;
+    background-color: #9a879d;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid #563440;
+    font-weight: bold;
+    color: #303030;
+}
+
+#guide_card img {
+    height: 150px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#guide_card p {
+    font-style: italic;
+}
